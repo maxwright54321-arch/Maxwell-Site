@@ -4,37 +4,35 @@
     text-align: center;
 }
 
+nav {
+    display: table;
+    margin: 0 auto 20px auto;
+    border: 1px solid black;
+    padding: 12px 32px;
+    border-radius: 8px;
+    background-color: white;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
     gap: 40px;
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-}
-
-nav a{
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-}
-
-nav {
-    display: inline-block;
-    border: 1px solid black;
-    padding: 10px 30px;
-    border-radius: 8px;
-    background-color: white;
 }
 
 nav li {
     padding: 5px 10px;
 }
 
-nav a:hover{
-    border-bottom: 2px solid #f01e1e;
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #f01e1e;
 }
 
 img {
