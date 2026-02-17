@@ -15,7 +15,27 @@ nav ul {
     padding-bottom: 10px;
 }
 
-nav a{ text-decoration: none;}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+nav li {
+    padding: 5px 10px;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #f01e1e;
+}
 
 img {
     margin-top: 20px;
@@ -24,7 +44,7 @@ img {
 
 .name {
     border: 10px solid #f01e1e;
-    padding: px;
+    padding: 10px;
     margin-bottom: 20px;
     font-size: xx-large;
 }
