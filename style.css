@@ -23,6 +23,18 @@ nav ul {
 
 nav li {
     padding: 5px 10px;
+    position: relative;
+}
+
+nav li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 1px;
+    background-color: black;
 }
 
 nav a {
