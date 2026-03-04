@@ -1,42 +1,71 @@
-<html>      
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <title>Maxwell Wright</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
 </head>
-    <body>
-        <div class="container">
-        <div class = "name">
-            <h1>
-                Maxwell Wright
-            </h1>
+<body>
+
+    <div class="bg-grain"></div>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="wordmark">
+                <span class="wordmark-first">Maxwell</span>
+                <span class="wordmark-last">Wright</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <!--<li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="projects.html">Projects</a></li>-->
+                    <li><a href="MaxWrightCV.pdf" class="nav-cv">CV <i class="fa-solid fa-arrow-down-to-line"></i></a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href = "index.html" class = "active">Home</a></li>
-                <!--<li><a href = "achievements.html">Achievements</a></li>
-                <li><a href = "projects.html">Projects</a></li>-->
-                <li><a href = "MaxWrightCV.pdf">CV</a></li>
-            </ul>
-        </nav>
-        <img src="Max.jpg"/>
-        <footer>
+    </header>
+
+    <main class="main-content">
+
+        <section class="hero">
+            <div class="hero-photo-wrap">
+                <div class="photo-frame">
+                    <img src="Max.jpg" alt="Maxwell Wright"/>
+                </div>
+                <div class="photo-accent"></div>
+            </div>
+            <div class="hero-text">
+                <p class="hero-label">Portfolio</p>
+                <h1 class="hero-name">Maxwell<br><em>Wright</em></h1>
+                <p class="hero-tagline">A personal space for my work, projects &amp; CV.</p>
+                <a href="MaxWrightCV.pdf" class="cta-btn">
+                    View CV <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="footer-name">Maxwell Wright</span>
+                <p class="copyright">© 2026. All rights reserved.</p>
+            </div>
             <div class="socials">
-                <a href="https://www.instagram.com/maxtwright/" target="_blank">
+                <a href="https://www.instagram.com/maxtwright/" target="_blank" aria-label="Instagram">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/max-wright-34a033389/" target="_blank">
+                <a href="https://www.linkedin.com/in/max-wright-34a033389/" target="_blank" aria-label="LinkedIn">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </div>
-
-            <p class="copyright">
-                © 2026 Maxwell Wright. All rights reserved.
-            </p>
-        </footer>
         </div>
-    </body>
+    </footer>
 
+</body>
 </html>
